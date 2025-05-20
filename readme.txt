@@ -10,6 +10,8 @@ Installez les bibliothèques système nécessaires :
 sudo apt update
 sudo apt install -y pkg-config libcairo2-dev
 sudo apt install -y gobject-introspection libgirepository1.0-dev cmake
+# sometime
+sudo apt install libgirepository-2.0-dev
 ```
 
 ## 📚 Installation des dépendances Python

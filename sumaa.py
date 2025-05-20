@@ -5,7 +5,7 @@ def summar_txt(preloaded_from_pdf):
     # Initialize the summarization pipeline
     @st.cache_resource
     def load_summarizer():
-        return pipeline("summarization")
+        return pipeline("summarization", model="sshleifer/distilbart-cnn-12-6", revision="a4f8f3e")
 
     summarizer = load_summarizer()
 
